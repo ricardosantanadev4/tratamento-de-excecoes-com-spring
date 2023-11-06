@@ -8,11 +8,11 @@ public class RecordoNotFoundException extends RuntimeException {
 
 	public RecordoNotFoundException(Long id) {
 		/*
-		 * super() estar chamando o construtor da classe RuntimeException esse
-		 * construtor constroi uma nova exceção de tempo de execucao com a mensagem
-		 * detalhada especificada, a mensagem detalhada e salva para recuperação
-		 * posterior pelo metodo getMessage(), para o obter mais informacoes selecione a
-		 * classe RuntimeException e pressione f3 onde voce vai ser direcionado a classe
+		 * super() chama o construtor da classe RuntimeException, esse construtor
+		 * constroi uma nova exceção de tempo de execucao com a mensagem detalhada
+		 * especificada, a mensagem detalhada e salva para recuperação posterior pelo
+		 * metodo getMessage(), para o obter mais informacoes selecione a classe
+		 * RuntimeException e pressione f3 onde voce vai ser direcionado a classe
 		 */
 		super("Registro não encontrado com id: " + id);
 	}
